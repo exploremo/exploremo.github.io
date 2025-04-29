@@ -1,0 +1,166 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <style>.services {
+    padding: 80px 0;
+    background-color: #f9f9f9;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+    color: #2c3e50;
+}
+
+.section-subtitle {
+    text-align: center;
+    font-size: 1.1rem;
+    color: #7f8c8d;
+    max-width: 700px;
+    margin: 0 auto 50px;
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.feature-box {
+    background: white;
+    padding: 40px 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+    position: relative;
+}
+
+.feature-box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+}
+
+.feature-box.highlight {
+    border-top: 4px solid #3498db;
+}
+
+.feature-icon {
+    font-size: 2.5rem;
+    color: #3498db;
+    margin-bottom: 20px;
+}
+
+.feature-box h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    color: #2c3e50;
+}
+
+.feature-box p {
+    color: #7f8c8d;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.feature-list {
+    text-align: left;
+    margin: 25px 0;
+    padding-left: 20px;
+}
+
+.feature-list li {
+    margin-bottom: 10px;
+    color: #34495e;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 30px;
+    background: #3498db;
+    color: white;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    background: #2980b9;
+    transform: translateY(-2px);
+}
+
+.btn-outline {
+    background: transparent;
+    border: 2px solid #3498db;
+    color: #3498db;
+}
+
+.btn-outline:hover {
+    background: #3498db;
+    color: white;
+}</style>
+  <section id="services" class="services">
+    <div class="container">
+        <h2 class="section-title">Our Premium Services</h2>
+        <p class="section-subtitle">Discover the perfect travel experience with our curated services</p>
+        
+        <div class="services-grid">
+            <!-- Service 1 -->
+            <div class="feature-box">
+                <div class="feature-icon">
+                    <i class="fas fa-plane"></i>
+                </div>
+                <h3>Flight Booking</h3>
+                <p>We partner with major airlines to bring you competitive prices and flexible travel options.</p>
+                <ul class="feature-list">
+                    <li>Best price guarantee</li>
+                    <li>24/7 booking support</li>
+                    <li>Multi-city itineraries</li>
+                </ul>
+                <a href="#" class="btn btn-outline">Explore Flights</a>
+            </div>
+            
+            <!-- Service 2 -->
+            <div class="feature-box highlight">
+                <div class="feature-icon">
+                    <i class="fas fa-hotel"></i>
+                </div>
+                <h3>Luxury Stays</h3>
+                <p>Handpicked accommodations that match your style and budget, from boutique to 5-star.</p>
+                <ul class="feature-list">
+                    <li>Exclusive member rates</li>
+                    <li>Free cancellation options</li>
+                    <li>Verified guest reviews</li>
+                </ul>
+                <a href="#" class="btn">Find Hotels</a>
+            </div>
+            
+            <!-- Service 3 -->
+            <div class="feature-box">
+                <div class="feature-icon">
+                    <i class="fas fa-map-marked-alt"></i>
+                </div>
+                <h3>Tailored Experiences</h3>
+                <p>Personalized tours designed by local experts to show you the heart of each destination.</p>
+                <ul class="feature-list">
+                    <li>Private guides</li>
+                    <li>Off-the-beaten-path</li>
+                    <li>Culinary adventures</li>
+                </ul>
+                <a href="#" class="btn btn-outline">Design Your Trip</a>
+            </div>
+        </div>
+    </div>
+</section>
+</body>
+</html>
