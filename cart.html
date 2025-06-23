@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Cart | ExploreMo</title>
+    <link rel="stylesheet" href="cart.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+    
+    </header>
+    <header>
+        <nav class="container">
+            <div class="logo">ExploreMo</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="page2.html">Special Offers</a></li>
+              <li><a href="page3.html">Adventure Activities</a></li> 
+               <li><a href="page4.html">Services</a></li> 
+                <li><a href="page5.html">Contact</a></li>
+            </ul>
+            <div class="auth-buttons">
+                <a href="login.html" class="auth-btn login-btn">Login</a>
+                <a href="signup.html" class="auth-btn signup-btn">Sign Up</a>
+                <a href="cart.html" class="cart-btn">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span class="cart-count">0</span>
+                </a>
+            </div>
+        </nav>
+
+    <div class="container">
+        <h2 class="section-title">Your Cart</h2>
+        
+        <div class="cart-container">
+            <div class="cart-items">
+                <!-- Sample cart items - replace with dynamic content -->
+                <div class="cart-item">
+                    <div class="item-image">
+                        <img src="marrakech.jpg" alt="Marrakech Tour">
+                    </div>
+                    <div class="item-details">
+                        <h3 class="item-title">Marrakech Adventure</h3>
+                        <p class="item-destination">Marrakech, Morocco</p>
+                        <p class="item-price">$799 per person</p>
+                        <div class="item-actions">
+                            <div class="quantity-control">
+                                <button class="quantity-btn">-</button>
+                                <input type="text" class="quantity-input" value="1">
+                                <button class="quantity-btn">+</button>
+                            </div>
+                            <button class="remove-btn"><i class="fas fa-trash"></i> Remove</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="cart-item">
+                    <div class="item-image">
+                        <img src="chaouenba.jpg" alt="Chefchaouen Tour">
+                    </div>
+                    <div class="item-details">
+                        <h3 class="item-title">Chefchaouen Getaway</h3>
+                        <p class="item-destination">Chefchaouen, Morocco</p>
+                        <p class="item-price">$899 per person</p>
+                        <div class="item-actions">
+                            <div class="quantity-control">
+                                <button class="quantity-btn">-</button>
+                                <input type="text" class="quantity-input" value="1">
+                                <button class="quantity-btn">+</button>
+                            </div>
+                            <button class="remove-btn"><i class="fas fa-trash"></i> Remove</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="cart-summary">
+                <h3 class="summary-title">Order Summary</h3>
+                
+                <div class="summary-row">
+                    <span>Subtotal (2 items)</span>
+                    <span>$1,698.00</span>
+                </div>
+                
+                <div class="summary-row">
+                    <span>Taxes & Fees</span>
+                    <span>$101.88</span>
+                </div>
+                
+                <div class="summary-row">
+                    <span>Shipping</span>
+                    <span>Free</span>
+                </div>
+                
+                <div class="summary-row summary-total">
+                    <span>Total</span>
+                    <span>$1,799.88</span>
+                </div>
+                
+                <a href="cart.html" class="checkout-btn">Proceed to Checkout</a>
+                <a href="page3.html" class="continue-shopping">Continue Shopping</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

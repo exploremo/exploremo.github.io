@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacs | ExploreMo</title>
+    <link rel="stylesheet" href="page5.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <script src="script.js"></script>
+    <!-- Header/Hero Section -->
+    <header>
+        <nav class="container">
+            <div class="logo">ExploreMo</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="page2.html">Special Offers</a></li>
+              <li><a href="page3.html">Adventure Activities</a></li> 
+               <li><a href="page4.html">Services</a></li> 
+                <li><a href="page5.html">Contact</a></li>
+            </ul>
+            <div class="auth-buttons">
+                <a href="login.html" class="auth-btn login-btn">Login</a>
+                <a href="signup.html" class="auth-btn signup-btn">Sign Up</a>
+                <a href="cart.html" class="cart-btn">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span class="cart-count">0</span>
+                </a>
+            </div>
+        </nav>
+
+        <div class="page-header container">
+            <h1>Contact Us</h1>
+            <p>We'd love to hear from you! Reach out to our team for any questions or to start planning your next adventure.</p>
+        </div>
+    </header>
+
+    <!-- Contact Section -->
+    <section class="contact">
+        <div class="container">
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Get in Touch</h3>
+                    <p>Our travel experts are available to help you plan your perfect getaway. Contact us using the information below or fill out the form.</p>
+                    
+                    <ul class="contact-details">
+                        <li>
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <strong>Address</strong><br>
+                                Souani Rue Ibn Farda 77 , Tanger<br>
+                                , ExploreMo
+                            </div>
+                        </li>
+                        <li>
+                            <i class="fas fa-phone-alt"></i>
+                            <div>
+                                <strong>Phone</strong><br>
+                                +212 770 39 72 92
+                            </div>
+                        </li>
+                        <li>
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <strong>Email</strong><br>
+                                Contact@exploremo.com
+                            </div>
+                        </li>
+                        <li>
+                            <i class="fas fa-clock"></i>
+                            <div>
+                                <strong>Emergency</strong><br>
+                                +212 539 39 75 22 (24/7)
+                            </div>
+                        </li>
+                    </ul>
+
+                    <div class="hours">
+                        <h3>Business Hours</h3>
+                        <table class="hours-table">
+                            <tr>
+                                <td>Monday - Friday</td>
+                                <td>9:00 AM - 6:00 PM</td>
+                            </tr>
+                            <tr>
+                                <td>Saturday</td>
+                                <td>10:00 AM - 4:00 PM</td>
+                            </tr>
+                            <tr>
+                                <td>Sunday</td>
+                                <td>Closed</td>
+                            </tr>
+                            <tr>
+                                <td>Holidays</td>
+                                <td>Special Hours</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+
+                <div class="contact-form">
+                    <h3>Send Us a Message</h3>
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone">
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <select id="subject" required>
+                                <option value="" disabled selected>Select a subject</option>
+                                <option value="booking">Booking Inquiry</option>
+                                <option value="custom">Custom Trip Request</option>
+                                <option value="feedback">Feedback</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Your Message</label>
+                            <textarea id="message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12308.986979929112!2d-5.7994171!3d35.7647585!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd0b8134eeb229e7%3A0xfaf63ac9a4f8c84d!2sInstitute%20Ciel!5e1!3m2!1sen!2sma!4v1744575367052!5m2!1sen!2sma" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq">
+        <div class="container">
+            <h2 class="section-title">Frequently Asked Questions</h2>
+            
+            <div class="faq-item">
+                <div class="faq-question">
+                    <span>How quickly can I expect a response to my inquiry?</span>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="faq-answer">
+                    <p>We typically respond to all inquiries within 24 hours during business days. For urgent matters, please call our emergency line which is available 24/7.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    <span>What information should I include in my travel inquiry?</span>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="faq-answer">
+                    <p>Please include your travel dates, number of travelers, destination preferences, budget range, and any special requirements. The more details you provide, the better we can tailor our response to your needs.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    <span>Do you charge fees for consultation services?</span>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="faq-answer">
+                    <p>Initial consultations are always free. For complex custom itineraries, we may charge a planning fee which is fully deductible from your final booking cost.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    <span>Can I visit your office in person?</span>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="faq-answer">
+                    <p>Absolutely! Our office is open Monday-Friday from 9AM to 6PM. We recommend scheduling an appointment to ensure a travel specialist is available to assist you.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>ExploreMo</h3>
+                    <p>Making travel dreams come true since 2024. We specialize in creating unforgettable experiences around the globe.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <i class="fa-brands fa-square-x-twitter"></i>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <div class="footer-column">
+                        <ul class="footer-links">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="page2.html">Special Offers</a></li>
+                          <li><a href="page3.html">Adventure Activities</a></li> 
+                           <li><a href="page4.html">Services</a></li> 
+                            <li><a href="page5.html">Contact</a></li>
+                        </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Services</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Flight Bookings</a></li>
+                        <li><a href="#">Hotel Reservations</a></li>
+                        <li><a href="#">Tour Packages</a></li>
+                        <li><a href="#">Visa Assistance</a></li>
+                        <li><a href="#">Travel Insurance</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Contact Us</h3>
+                    <ul class="footer-links">
+                        <li><i class="fas fa-map-marker-alt"></i> 123 Travel St, Adventure City</li>
+                        <li><i class="fas fa-phone"></i> +212 770 39 72 92
+                        </li>
+                        <li><i class="fas fa-envelope"></i> Contact@exploremo.com</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                &copy; 2025 ExploreMo. All rights reserved.
+            </div>
+        </div>
+    </footer>
+    
+</body>
+</html>

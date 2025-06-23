@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adventure Activities | ExploreMo</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="page3.css">
+</head>
+<body>
+    <script src="script.js"></script>
+        <!-- Header/Hero Section -->
+        <header>
+            <nav class="container">
+                <div class="logo">ExploreMo</div>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="page2.html">Special Offers</a></li>
+                  <li><a href="page3.html">Adventure Activities</a></li> 
+                   <li><a href="page4.html">Services</a></li> 
+                    <li><a href="page5.html">Contact</a></li>
+                </ul>
+                <div class="auth-buttons">
+                    <a href="login.html" class="auth-btn login-btn">Login</a>
+                    <a href="signup.html" class="auth-btn signup-btn">Sign Up</a>
+                    <a href="cart.html" class="cart-btn">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span class="cart-count">0</span>
+                    </a>
+                </div>
+            </nav>
+    
+            <div class="page-header container">
+                <h1>Explore Our Activities</h1>
+                <p>Discover thrilling activities and unforgettable adventures.</p><br>
+                <a href="#" class="btn">Start Exploring</a>
+            </div>
+        </header>
+    
+<!-- Activities Section -->
+<section class="activities">
+    <div class="container">
+        <div class="activity-filter">
+            <h2 class="section-title">Adventure Activities</h2>
+            <p>Find your perfect thrill</p>
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="water">Water</button>
+                <button class="filter-btn" data-filter="land">Land</button>
+                <button class="filter-btn" data-filter="air">Air</button>
+                <button class="filter-btn" data-filter="winter">Winter</button>
+            </div>
+        </div>
+
+        <div class="activities-grid">
+            <!-- Activity 1 -->
+            <div class="activity-card" data-category="water">
+                <div class="activity-img">
+                    <img src="https://images.unsplash.com/photo-1544551763-46a013bb70d5?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Scuba Diving">
+                    <div class="activity-tag">Most Popular</div>
+                </div>
+                <div class="activity-content">
+                    <h3>Scuba Diving</h3>
+                    <div class="activity-meta">
+                        <span class="activity-location">
+                            <i class="fas fa-map-marker-alt"></i> Agadir, Morocco
+                        </span>
+                        <span class="activity-duration">
+                            <i class="fas fa-clock"></i> 4-6 hours
+                        </span>
+                    </div>
+                    <p class="activity-excerpt">Explore vibrant marine life and crystal-clear waters in this unforgettable underwater adventure.</p>
+                    <div class="activity-footer">
+                        <span class="activity-price">From $129</span>
+                        <a href="#" class="btn">Book Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Activity 2 -->
+            <div class="activity-card" data-category="land">
+                <div class="activity-img">
+                    <img src="images/photo_6028181768001144327_y.jpg" alt="Quad Biking">
+                </div>
+                <div class="activity-content">
+                    <h3>Quad Biking</h3>
+                    <div class="activity-meta">
+                        <span class="activity-location">
+                            <i class="fas fa-map-marker-alt"></i> Marrakech Desert, Morocco
+                        </span>
+                        <span class="activity-duration">
+                            <i class="fas fa-clock"></i> 2-3 hours
+                        </span>
+                    </div>
+                    <p class="activity-excerpt">Experience the thrill of riding ATVs through the stunning desert landscapes of Marrakech.</p>
+                    <div class="activity-footer">
+                        <span class="activity-price">From $89</span>
+                        <a href="#" class="btn">Book Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Activity 3 -->
+            <div class="activity-card" data-category="water">
+                <div class="activity-img">
+                    <img src="images/top-tips-for-buying-a-family-fishing-boat-01-012019.jpg" alt="Deep Sea Fishing">
+                    <div class="activity-tag">New</div>
+                </div>
+                <div class="activity-content">
+                    <h3>Deep Sea Fishing</h3>
+                    <div class="activity-meta">
+                        <span class="activity-location">
+                            <i class="fas fa-map-marker-alt"></i> Essaouira, Morocco
+                        </span>
+                        <span class="activity-duration">
+                            <i class="fas fa-clock"></i> Full day
+                        </span>
+                    </div>
+                    <p class="activity-excerpt">Catch exotic fish with expert guides in the beautiful waters of Essaouira.</p>
+                    <div class="activity-footer">
+                        <span class="activity-price">From $199</span>
+                        <a href="#" class="btn">Book Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Activity 4 -->
+            <div class="activity-card" data-category="air">
+                <div class="activity-img">
+                    <img src="images/fly-over-agafay-desert-paragliding-with-atlas-mountain-views_rAywQ.jpeg" alt="Paragliding">
+                </div>
+                <div class="activity-content">
+                    <h3>Paragliding</h3>
+                    <div class="activity-meta">
+                        <span class="activity-location">
+                            <i class="fas fa-map-marker-alt"></i> Imlil, Morocco
+                        </span>
+                        <span class="activity-duration">
+                            <i class="fas fa-clock"></i> 1-2 hours
+                        </span>
+                    </div>
+                    <p class="activity-excerpt">Soar above the Atlas Mountains and enjoy breathtaking views of the valleys below.</p>
+                    <div class="activity-footer">
+                        <span class="activity-price">From $159</span>
+                        <a href="#" class="btn">Book Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Activity 5 -->
+            <div class="activity-card" data-category="winter">
+                <div class="activity-img">
+                    <img src="images/pexels-jordicosta-31469978.jpg" alt="Ice Climbing">
+                </div>
+                <div class="activity-content">
+                    <h3>Ice Climbing</h3>
+                    <div class="activity-meta">
+                        <span class="activity-location">
+                            <i class="fas fa-map-marker-alt"></i> Oukaimeden, Morocco
+                        </span>
+                        <span class="activity-duration">
+                            <i class="fas fa-clock"></i> 4-5 hours
+                        </span>
+                    </div>
+                    <p class="activity-excerpt">Scale frozen cliffs in Morocco's premier winter sports destination.</p>
+                    <div class="activity-footer">
+                        <span class="activity-price">From $149</span>
+                        <a href="#" class="btn">Book Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Activity 6 -->
+            <div class="activity-card" data-category="water">
+                <div class="activity-img">
+                    <img src="images/48_6399f9b09a138s_0.jpg" alt="White Water Rafting">
+                </div>
+                <div class="activity-content">
+                    <h3>White Water Rafting</h3>
+                    <div class="activity-meta">
+                        <span class="activity-location">
+                            <i class="fas fa-map-marker-alt"></i> Ourika Valley, Morocco
+                        </span>
+                        <span class="activity-duration">
+                            <i class="fas fa-clock"></i> 3-4 hours
+                        </span>
+                    </div>
+                    <p class="activity-excerpt">Navigate thrilling rapids through the stunning landscapes of the Ourika Valley.</p>
+                    <div class="activity-footer">
+                        <span class="activity-price">From $109</span>
+                        <a href="#" class="btn">Book Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<footer>
+    <div class="container">
+        <div class="logo">ExploreMo</div>
+        <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="page2.html">Special Offers</a></li>
+          <li><a href="page3.html">Adventure Activities</a></li> 
+           <li><a href="page4.html">Services</a></li> 
+            <li><a href="page5.html">Contact</a></li>
+        </ul>
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+           <a href="#"><i class="fa-brands fa-square-x-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+        <p>&copy; 2025 ExploreMo. All rights reserved.</p>
+    </div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="signup.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <header>
+        <nav class="container">
+            <div class="logo">ExploreMo</div>
+            <ul class="nav-links">
+                
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="page2.html">Special Offers</a></li>
+                  <li><a href="page3.html">Adventure Activities</a></li> 
+                   <li><a href="page4.html">Services</a></li> 
+                    <li><a href="page5.html">Contact</a></li>
+            </ul>
+            <div class="auth-buttons">
+                <a href="login.html" class="auth-btn login-btn">Login</a>
+                <a href="signup.html" class="auth-btn signup-btn">Sign Up</a>
+                <a href="cart.html" class="cart-btn">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span class="cart-count">0</span>
+                </a>
+            </div>
+        </nav>
+
+    <div class="auth-container">
+        <div class="auth-card">
+            <div class="auth-header">
+                <h2>Create Account</h2>
+                <p>Join ExploreMo to discover amazing destinations</p>
+            </div>
+            
+            <form>
+                <div class="name-fields">
+                    <div class="form-group">
+                        <label for="first-name">First Name</label>
+                        <input type="text" id="first-name" class="form-control" placeholder="First name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="last-name">Last Name</label>
+                        <input type="text" id="last-name" class="form-control" placeholder="Last name" required>
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" class="form-control" placeholder="Enter your email" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" class="form-control" placeholder="Create a password" required>
+                </div>
+                
+
+                
+                <div class="form-group">
+                    <input type="checkbox" id="terms" required>
+                    <label for="terms" style="display: inline; font-weight: normal;">
+                        I agree to the <a href="#" style="color: #ff6b6b;">Terms of Service</a> and <a href="#" style="color: #ff6b6b;">Privacy Policy</a>
+                    </label>
+                </div>
+                
+                <div class="form-group">
+                    <a href="#" class="btn">Create Account</a>
+                </div>
+            </form>
+            
+            <div class="auth-footer">
+                Already have an account? <a href="login.html">Sign in</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
